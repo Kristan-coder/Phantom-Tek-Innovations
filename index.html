@@ -1,59 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Phantom Tek Innovations</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Additional styles for customization */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000000; /* Dark gray background for the bottom of the page */
+      color: #fff;
+    }
+
+    .top-section {
+      background-color: #1c0606; /* Dark red background for the top section */
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .top-section img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%; /* Makes the image circular */
+    }
+
+    .navbar {
+      background-color: #171717; /* Set your desired background color */
+    }
+  </style>
 </head>
+
 <body>
 
-    <header>
-        <div class="top-row">
-            <!-- Add your image for the top row -->
-            <img src="c:\Users\Kristan.Reyes\Pictures\logo for coding.png" height="150" width="150" alt="Top Image">
-        </div>
-        <div class="logo">
-            <!-- Add your logo image -->
-            <img src=".png" alt="Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Sister Sites</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Info</a></li>
-                <li><a href="#">Resources</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Top Section with Image and Text -->
+  <div class="top-section">
+    <img src="img/logo.jpg" alt="Logo">
+    <h1>Phantom Tek Innovations</h1>
+  </div>
 
-    <div class="main-content">
-        <aside class="sidebar">
-            <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
-                </div>
-              </div>
-        </aside>
-
-        <main>
-            <div class="windows">
-                <!-- Add windows and random paragraphs here -->
-                <div class="window">
-                    <p>This is a random paragraph about paranormal activities.</p>
-                </div>
-                <div class="window">
-                    <p>Explore the unknown with our team of experts.</p>
-                </div>
-                <!-- Add more windows and content as needed -->
-            </div>
-        </main>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Sistersites.html">Sister Sites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Community.html">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Info.html">Info</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <div class="image-container">
+    <!-- Original image -->
+    <img class="base-image" src="img/potentialhazzarrds.jpg" height="350" width="500" alt="Original Image">
 
+    <!-- Hover image -->
+    <img class="hover-image" src="img/eleven.jpg" height="400" width="400" alt="Hover Image">
+  </div> <img class="hover-image" src="img/paragrapgh1.jpg" height="400" width="700" alt="Hover Image">
+</div>
+
+ 
+  <!-- Your page content goes here -->
+<img src="img/tv.jpg" alt="Original"> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 </html>
+0
