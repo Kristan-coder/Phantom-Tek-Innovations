@@ -161,11 +161,7 @@ ul a:focus, ul a:hover {
 }
 
 .flipInX {
-  -webkit-backface-visibility: visible !important;
-  -ms-backface-visibility: visible !important;
-  backface-visibility: visible !important;
-  -webkit-animation-name: flipInX;
-  animation-name: flipInX;
+ 
 }
 ul {
   list-style-type: none; /* Remove default bullet points */
